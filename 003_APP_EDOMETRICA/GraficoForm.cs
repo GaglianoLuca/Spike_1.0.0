@@ -235,7 +235,7 @@ public class GraficoForm : Form
 
 
                 //-------------------------------------------------------------------------
-                double bisectorSlope = adjustedSlope / 2.0;
+                double bisectorSlope =  Math.Tan(0.5 * Math.Atan(adjustedSlope));
                 
 
 
